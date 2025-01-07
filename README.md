@@ -99,6 +99,10 @@ Contribution
 Contributions (bug reports, bug fixes, improvements, etc.) are very welcome and
 should be submitted in the form of new issues and/or pull requests on GitHub.
 
+Install
+------------
+cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE=D:\appset\vcpkg\vcpkg-master\scripts\buildsystems\vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows -D CMAKE_CUDA_ARCHITECTURES="86"
+
 
 License
 -------
